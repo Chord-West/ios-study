@@ -13,7 +13,8 @@
 		CC56BB2E2832699B00CA7908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC56BB2C2832699B00CA7908 /* Main.storyboard */; };
 		CC56BB302832699C00CA7908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC56BB2F2832699C00CA7908 /* Assets.xcassets */; };
 		CC56BB332832699C00CA7908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC56BB312832699C00CA7908 /* LaunchScreen.storyboard */; };
-		CC56BB3D283291C200CA7908 /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB3C283291C200CA7908 /* SeguePushViewController.swift */; };
+		CC56BB3D283291C200CA7908 /* SuguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB3C283291C200CA7908 /* SuguePushViewController.swift */; };
+		CC56BB412833E01C00CA7908 /* SuguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB402833E01C00CA7908 /* SuguePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,8 @@
 		CC56BB2F2832699C00CA7908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC56BB322832699C00CA7908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC56BB342832699C00CA7908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC56BB3C283291C200CA7908 /* SeguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
+		CC56BB3C283291C200CA7908 /* SuguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePushViewController.swift; sourceTree = "<group>"; };
+		CC56BB402833E01C00CA7908 /* SuguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,8 @@
 				CC56BB2F2832699C00CA7908 /* Assets.xcassets */,
 				CC56BB312832699C00CA7908 /* LaunchScreen.storyboard */,
 				CC56BB342832699C00CA7908 /* Info.plist */,
-				CC56BB3C283291C200CA7908 /* SeguePushViewController.swift */,
+				CC56BB3C283291C200CA7908 /* SuguePushViewController.swift */,
+				CC56BB402833E01C00CA7908 /* SuguePresentViewController.swift */,
 			);
 			path = ScreenTransactionExample;
 			sourceTree = "<group>";
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC56BB3D283291C200CA7908 /* SeguePushViewController.swift in Sources */,
+				CC56BB412833E01C00CA7908 /* SuguePresentViewController.swift in Sources */,
+				CC56BB3D283291C200CA7908 /* SuguePushViewController.swift in Sources */,
 				CC56BB2B2832699B00CA7908 /* ViewController.swift in Sources */,
 				CC56BB272832699B00CA7908 /* AppDelegate.swift in Sources */,
 				CC56BB292832699B00CA7908 /* SceneDelegate.swift in Sources */,

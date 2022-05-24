@@ -7,31 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC56BB272832699B00CA7908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB262832699B00CA7908 /* AppDelegate.swift */; };
-		CC56BB292832699B00CA7908 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB282832699B00CA7908 /* SceneDelegate.swift */; };
-		CC56BB2B2832699B00CA7908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB2A2832699B00CA7908 /* ViewController.swift */; };
-		CC56BB2E2832699B00CA7908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC56BB2C2832699B00CA7908 /* Main.storyboard */; };
-		CC56BB302832699C00CA7908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC56BB2F2832699C00CA7908 /* Assets.xcassets */; };
-		CC56BB332832699C00CA7908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC56BB312832699C00CA7908 /* LaunchScreen.storyboard */; };
-		CC56BB3D283291C200CA7908 /* SuguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB3C283291C200CA7908 /* SuguePushViewController.swift */; };
-		CC56BB412833E01C00CA7908 /* SuguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC56BB402833E01C00CA7908 /* SuguePresentViewController.swift */; };
+		CC51FCB2283D071C000228C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51FCB1283D071C000228C5 /* AppDelegate.swift */; };
+		CC51FCB4283D071C000228C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51FCB3283D071C000228C5 /* SceneDelegate.swift */; };
+		CC51FCB6283D071C000228C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51FCB5283D071C000228C5 /* ViewController.swift */; };
+		CC51FCB9283D071C000228C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51FCB7283D071C000228C5 /* Main.storyboard */; };
+		CC51FCBB283D071D000228C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC51FCBA283D071D000228C5 /* Assets.xcassets */; };
+		CC51FCBE283D071D000228C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC51FCBC283D071D000228C5 /* LaunchScreen.storyboard */; };
+		CC51FCC6283D093A000228C5 /* SuguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51FCC5283D093A000228C5 /* SuguePushViewController.swift */; };
+		CC51FCC8283D0BBA000228C5 /* SuguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51FCC7283D0BBA000228C5 /* SuguePresentViewController.swift */; };
+		CC51FCCA283D0D81000228C5 /* CodePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51FCC9283D0D81000228C5 /* CodePushViewController.swift */; };
+		CC51FCCC283D1165000228C5 /* CodePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC51FCCB283D1165000228C5 /* CodePresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC56BB232832699B00CA7908 /* ScreenTransactionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransactionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC56BB262832699B00CA7908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC56BB282832699B00CA7908 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC56BB2A2832699B00CA7908 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC56BB2D2832699B00CA7908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CC56BB2F2832699C00CA7908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC56BB322832699C00CA7908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC56BB342832699C00CA7908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC56BB3C283291C200CA7908 /* SuguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePushViewController.swift; sourceTree = "<group>"; };
-		CC56BB402833E01C00CA7908 /* SuguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePresentViewController.swift; sourceTree = "<group>"; };
+		CC51FCAE283D071C000228C5 /* ScreenTransactionExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransactionExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC51FCB1283D071C000228C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC51FCB3283D071C000228C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC51FCB5283D071C000228C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC51FCB8283D071C000228C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC51FCBA283D071D000228C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC51FCBD283D071D000228C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC51FCBF283D071D000228C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC51FCC5283D093A000228C5 /* SuguePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePushViewController.swift; sourceTree = "<group>"; };
+		CC51FCC7283D0BBA000228C5 /* SuguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuguePresentViewController.swift; sourceTree = "<group>"; };
+		CC51FCC9283D0D81000228C5 /* CodePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePushViewController.swift; sourceTree = "<group>"; };
+		CC51FCCB283D1165000228C5 /* CodePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC56BB202832699B00CA7908 /* Frameworks */ = {
+		CC51FCAB283D071C000228C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +45,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC56BB1A2832699B00CA7908 = {
+		CC51FCA5283D071C000228C5 = {
 			isa = PBXGroup;
 			children = (
-				CC56BB252832699B00CA7908 /* ScreenTransactionExample */,
-				CC56BB242832699B00CA7908 /* Products */,
+				CC51FCB0283D071C000228C5 /* ScreenTransactionExamples */,
+				CC51FCAF283D071C000228C5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CC56BB242832699B00CA7908 /* Products */ = {
+		CC51FCAF283D071C000228C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC56BB232832699B00CA7908 /* ScreenTransactionExample.app */,
+				CC51FCAE283D071C000228C5 /* ScreenTransactionExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC56BB252832699B00CA7908 /* ScreenTransactionExample */ = {
+		CC51FCB0283D071C000228C5 /* ScreenTransactionExamples */ = {
 			isa = PBXGroup;
 			children = (
-				CC56BB262832699B00CA7908 /* AppDelegate.swift */,
-				CC56BB282832699B00CA7908 /* SceneDelegate.swift */,
-				CC56BB2A2832699B00CA7908 /* ViewController.swift */,
-				CC56BB2C2832699B00CA7908 /* Main.storyboard */,
-				CC56BB2F2832699C00CA7908 /* Assets.xcassets */,
-				CC56BB312832699C00CA7908 /* LaunchScreen.storyboard */,
-				CC56BB342832699C00CA7908 /* Info.plist */,
-				CC56BB3C283291C200CA7908 /* SuguePushViewController.swift */,
-				CC56BB402833E01C00CA7908 /* SuguePresentViewController.swift */,
+				CC51FCB1283D071C000228C5 /* AppDelegate.swift */,
+				CC51FCB3283D071C000228C5 /* SceneDelegate.swift */,
+				CC51FCB5283D071C000228C5 /* ViewController.swift */,
+				CC51FCB7283D071C000228C5 /* Main.storyboard */,
+				CC51FCBA283D071D000228C5 /* Assets.xcassets */,
+				CC51FCBC283D071D000228C5 /* LaunchScreen.storyboard */,
+				CC51FCBF283D071D000228C5 /* Info.plist */,
+				CC51FCC5283D093A000228C5 /* SuguePushViewController.swift */,
+				CC51FCC7283D0BBA000228C5 /* SuguePresentViewController.swift */,
+				CC51FCC9283D0D81000228C5 /* CodePushViewController.swift */,
+				CC51FCCB283D1165000228C5 /* CodePresentViewController.swift */,
 			);
-			path = ScreenTransactionExample;
+			path = ScreenTransactionExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC56BB222832699B00CA7908 /* ScreenTransactionExample */ = {
+		CC51FCAD283D071C000228C5 /* ScreenTransactionExamples */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC56BB372832699C00CA7908 /* Build configuration list for PBXNativeTarget "ScreenTransactionExample" */;
+			buildConfigurationList = CC51FCC2283D071D000228C5 /* Build configuration list for PBXNativeTarget "ScreenTransactionExamples" */;
 			buildPhases = (
-				CC56BB1F2832699B00CA7908 /* Sources */,
-				CC56BB202832699B00CA7908 /* Frameworks */,
-				CC56BB212832699B00CA7908 /* Resources */,
+				CC51FCAA283D071C000228C5 /* Sources */,
+				CC51FCAB283D071C000228C5 /* Frameworks */,
+				CC51FCAC283D071C000228C5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ScreenTransactionExample;
-			productName = ScreenTransactionExample;
-			productReference = CC56BB232832699B00CA7908 /* ScreenTransactionExample.app */;
+			name = ScreenTransactionExamples;
+			productName = ScreenTransactionExamples;
+			productReference = CC51FCAE283D071C000228C5 /* ScreenTransactionExamples.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CC56BB1B2832699B00CA7908 /* Project object */ = {
+		CC51FCA6283D071C000228C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					CC56BB222832699B00CA7908 = {
+					CC51FCAD283D071C000228C5 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = CC56BB1E2832699B00CA7908 /* Build configuration list for PBXProject "ScreenTransactionExample" */;
+			buildConfigurationList = CC51FCA9283D071C000228C5 /* Build configuration list for PBXProject "ScreenTransactionExamples" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +122,59 @@
 				en,
 				Base,
 			);
-			mainGroup = CC56BB1A2832699B00CA7908;
-			productRefGroup = CC56BB242832699B00CA7908 /* Products */;
+			mainGroup = CC51FCA5283D071C000228C5;
+			productRefGroup = CC51FCAF283D071C000228C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC56BB222832699B00CA7908 /* ScreenTransactionExample */,
+				CC51FCAD283D071C000228C5 /* ScreenTransactionExamples */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC56BB212832699B00CA7908 /* Resources */ = {
+		CC51FCAC283D071C000228C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC56BB332832699C00CA7908 /* LaunchScreen.storyboard in Resources */,
-				CC56BB302832699C00CA7908 /* Assets.xcassets in Resources */,
-				CC56BB2E2832699B00CA7908 /* Main.storyboard in Resources */,
+				CC51FCBE283D071D000228C5 /* LaunchScreen.storyboard in Resources */,
+				CC51FCBB283D071D000228C5 /* Assets.xcassets in Resources */,
+				CC51FCB9283D071C000228C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC56BB1F2832699B00CA7908 /* Sources */ = {
+		CC51FCAA283D071C000228C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC56BB412833E01C00CA7908 /* SuguePresentViewController.swift in Sources */,
-				CC56BB3D283291C200CA7908 /* SuguePushViewController.swift in Sources */,
-				CC56BB2B2832699B00CA7908 /* ViewController.swift in Sources */,
-				CC56BB272832699B00CA7908 /* AppDelegate.swift in Sources */,
-				CC56BB292832699B00CA7908 /* SceneDelegate.swift in Sources */,
+				CC51FCC8283D0BBA000228C5 /* SuguePresentViewController.swift in Sources */,
+				CC51FCCA283D0D81000228C5 /* CodePushViewController.swift in Sources */,
+				CC51FCC6283D093A000228C5 /* SuguePushViewController.swift in Sources */,
+				CC51FCB6283D071C000228C5 /* ViewController.swift in Sources */,
+				CC51FCCC283D1165000228C5 /* CodePresentViewController.swift in Sources */,
+				CC51FCB2283D071C000228C5 /* AppDelegate.swift in Sources */,
+				CC51FCB4283D071C000228C5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CC56BB2C2832699B00CA7908 /* Main.storyboard */ = {
+		CC51FCB7283D071C000228C5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC56BB2D2832699B00CA7908 /* Base */,
+				CC51FCB8283D071C000228C5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CC56BB312832699C00CA7908 /* LaunchScreen.storyboard */ = {
+		CC51FCBC283D071D000228C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CC56BB322832699C00CA7908 /* Base */,
+				CC51FCBD283D071D000228C5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CC56BB352832699C00CA7908 /* Debug */ = {
+		CC51FCC0283D071D000228C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +242,7 @@
 			};
 			name = Debug;
 		};
-		CC56BB362832699C00CA7908 /* Release */ = {
+		CC51FCC1283D071D000228C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +296,7 @@
 			};
 			name = Release;
 		};
-		CC56BB382832699C00CA7908 /* Debug */ = {
+		CC51FCC3283D071D000228C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,7 +305,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8LUQQC2DA8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScreenTransactionExample/Info.plist;
+				INFOPLIST_FILE = ScreenTransactionExamples/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -308,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.chordwest.ScreenTransactionExample;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.chordwest.ScreenTransactionExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,7 +324,7 @@
 			};
 			name = Debug;
 		};
-		CC56BB392832699C00CA7908 /* Release */ = {
+		CC51FCC4283D071D000228C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,7 +333,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8LUQQC2DA8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ScreenTransactionExample/Info.plist;
+				INFOPLIST_FILE = ScreenTransactionExamples/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.chordwest.ScreenTransactionExample;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.chordwest.ScreenTransactionExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -347,25 +355,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC56BB1E2832699B00CA7908 /* Build configuration list for PBXProject "ScreenTransactionExample" */ = {
+		CC51FCA9283D071C000228C5 /* Build configuration list for PBXProject "ScreenTransactionExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC56BB352832699C00CA7908 /* Debug */,
-				CC56BB362832699C00CA7908 /* Release */,
+				CC51FCC0283D071D000228C5 /* Debug */,
+				CC51FCC1283D071D000228C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC56BB372832699C00CA7908 /* Build configuration list for PBXNativeTarget "ScreenTransactionExample" */ = {
+		CC51FCC2283D071D000228C5 /* Build configuration list for PBXNativeTarget "ScreenTransactionExamples" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC56BB382832699C00CA7908 /* Debug */,
-				CC56BB392832699C00CA7908 /* Release */,
+				CC51FCC3283D071D000228C5 /* Debug */,
+				CC51FCC4283D071D000228C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CC56BB1B2832699B00CA7908 /* Project object */;
+	rootObject = CC51FCA6283D071C000228C5 /* Project object */;
 }

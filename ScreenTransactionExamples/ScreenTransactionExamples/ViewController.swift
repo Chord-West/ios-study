@@ -37,7 +37,7 @@ class ViewController: UIViewController, SendDateDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let viewController = segue.destination as? SuguePushViewController{
-            viewController.name = "Gunter"
+            viewController.name = "Gunterf  "
         }
     }
     

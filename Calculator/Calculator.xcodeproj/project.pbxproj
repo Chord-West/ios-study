@@ -13,7 +13,7 @@
 		CC47E02628F197980068955E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC47E02428F197980068955E /* Main.storyboard */; };
 		CC47E02828F1979A0068955E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC47E02728F1979A0068955E /* Assets.xcassets */; };
 		CC47E02B28F1979A0068955E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC47E02928F1979A0068955E /* LaunchScreen.storyboard */; };
-		CC47E03328F1ABD90068955E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47E03228F1ABD90068955E /* RoundButton.swift */; };
+		CC47E03528F1AE010068955E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC47E03428F1AE010068955E /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		CC47E02728F1979A0068955E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC47E02A28F1979A0068955E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC47E02C28F1979A0068955E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC47E03228F1ABD90068955E /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		CC47E03428F1AE010068955E /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				CC47E02728F1979A0068955E /* Assets.xcassets */,
 				CC47E02928F1979A0068955E /* LaunchScreen.storyboard */,
 				CC47E02C28F1979A0068955E /* Info.plist */,
-				CC47E03228F1ABD90068955E /* RoundButton.swift */,
+				CC47E03428F1AE010068955E /* RoundButton.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC47E03328F1ABD90068955E /* RoundButton.swift in Sources */,
+				CC47E03528F1AE010068955E /* RoundButton.swift in Sources */,
 				CC47E02328F197980068955E /* ViewController.swift in Sources */,
 				CC47E01F28F197980068955E /* AppDelegate.swift in Sources */,
 				CC47E02128F197980068955E /* SceneDelegate.swift in Sources */,

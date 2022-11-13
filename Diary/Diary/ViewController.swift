@@ -22,7 +22,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.configureCollectionView()
         self.loadDiaryList()
-        // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(method),
+            name: <#T##NSNotification.Name?#>,
+            object: Any?
+        )
     }
     
     private func configureCollectionView(){
@@ -31,6 +36,10 @@ class ViewController: UIViewController {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
         
+    }
+    
+    @objc func editDiaryNotification(_ notification: Notification){
+        guard let diary = notification.object as? Diary else  {return}
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

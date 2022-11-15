@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import UIKit
+
+/*
+ func 함수명 ( 파라미터 이름: 데이터 타입 ) -&gt; 반환 타입{ 
+ return 반환 값
+ }
+ */
+
+func sum(a: Int, b : Int) -&gt; Int{
+    return a+b
+}
+
+sum(a: 5 , b: 3)
+
+func hello() -&gt; String {
+    return "hello"
+}
+
+hello()
+print(hello())
+
+func printName() {
+}
+
+func greeting(friend: String, me : String = "gunter"){
+    print("Hello, \(friend)! I'm \(me)")
+}
+
+greeting(friend: "Albert")
+
+/*
+ func 함수 이름 ( 전달인자 레이블 : 매개변수 이름 : 매개변수 타입, 전달인자 레이블 : 매개변수 이름: 매개변수 타입...) -&gt; 반환 타입{
+ return 반환 값
+ }
+ */
+
+func sendMessage(from myName: String, to name: String) -&gt; String{
+    return "Hello \(name)! I'M \(myName)"
+}
+sendMessage(from: "Gunter", to: "Json")
+
+    // 매개 변수를 앞에 넣고 싶지 않을때 _ 사용
+func sendMessage(_ name: String) -&gt; String{
+    return "Hello \(name)"
+}
+
+sendMessage("권태완")
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 756}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

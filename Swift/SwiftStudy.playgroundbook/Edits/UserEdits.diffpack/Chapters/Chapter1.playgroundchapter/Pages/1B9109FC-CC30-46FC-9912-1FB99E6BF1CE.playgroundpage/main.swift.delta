@@ -49,7 +49,7 @@ func sendMessage(from myName: String, to name: String) -&gt; String{
 }
 sendMessage(from: "Gunter", to: "Json")
 
-    // 매개 변수를 앞에 넣고 싶지 않을때 _ 사용
+    // 매개 변수를 앞에 넣고 싶지 않을때 _(와일드 카드 ) 사용
 func sendMessage(_ name: String) -&gt; String{
     return "Hello \(name)"
 }
@@ -58,7 +58,7 @@ sendMessage("권태완")
 
 </string>
 			<key>ModifiedRange</key>
-			<string>{0, 756}</string>
+			<string>{0, 765}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>

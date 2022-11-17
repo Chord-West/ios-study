@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>import UIKit
+
+/* 
+ 옵셔널 값이 있을 수도 있고, 없을 수도 있다.
+ 사용 이유 : 안정성을 위해서 에러가 발생해 프로그램 종료 되는 것을 막기위해
+ */
+
+var name: String?
+print(name)
+
+var optionalName: String? = "Gunter"
+print(optionalName)
+
+/* 옵셔널 함수는 값이 아직 정해지지 않았기 때문에 할당 불가*/
+//var requiredName: String = optionalName 
+
+/*
+ 옵셔널 해제 방법
+ 1. 명시적 해제 : 강제 해제, 비강제 해제 ( 옵셔널 바인딩 )
+ 2. 묵시적 해제 : 컴파일러에 의한 자동 해제, 옵셔널의 묵시적 해제
+ */
+
+    // 1. 명시적 해제
+var number:Int? = 3
+print(number)
+print(number!) // 옵셔널 강제 해제 : 위험한 방법 =&gt; 에러가 발생해 프로그램 종료 가능성해
+
+func test() {
+    let number: Int? = 5
+    guard let result = number else { return } // guard 문 이용해서 해제
+    print(result)
+}
+
+test()
+
+//2. 묵시적 해제
+    // 비교 연산자일 때 컴파일러가 묵시적으로 해제
+let value: Int? = 6
+if value == 6 {
+    print("value가 6 입니다.")
+}else{
+    print("value가 6이 아닙니다.")
+}
+
+let string = "12"
+var stringToInt: Int! = Int(string)
+print(stringToInt+1)
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 835}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

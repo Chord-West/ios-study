@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ 클래스 정의
+
+class 클래스 이름 {
+    프로퍼티와 메서드
+}
+ */
+
+import UIKit
+
+class Dog {
+    var name: String = ""
+    var age: Int = 0
+    
+    init(){
+        
+    }
+    
+    func introduce(){
+        print("name \(name) age \(age)")
+    }
+}
+
+var dog = Dog()
+dog.name = "CoCo"
+dog.age = 3
+
+
+print(dog.introduce())
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 301}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ Properties ( 프로퍼티 ) 란?
+ : 클래스, 구조체 또는 열거형 등에 관련된 값을 뜻한다.
+ 
+ Properties ( 프로퍼티 ) 종류
+ - 저장 프로퍼티
+ - 연산 프로퍼티
+ - 타입 프로퍼티
+ */
+
+import Foundation
+
+struct Dog {
+    var name: String
+    let gender: String
+}
+
+var dog = Dog(name : "gunter", gender: "Male")
+
+print(dog)
+
+dog.name = "권태완"
+
+
+//let dog2 = Dog(name:"gunter", gender: "male") 에러남
+
+class Cat {
+    var name: String
+    let gender: String
+    init(name:String, gender:String){
+        self.name = name
+        self.gender = gender
+    }
+}
+
+// class 는 let 으로 해도 변경 가능
+let cat = Cat(name:"json",gender :"male")
+cat.name = "gunter"
+print(cat.name)
+
+struct Stock {
+    var averagePrice : Int
+    var quantity : Int
+    var purchasePrice : Int {
+        get {
+            return averagePrice * quantity
+        }
+        
+        set(newPrice){
+            averagePrice = newPrice / quantity
+        }
+    }
+}
+
+var stock = Stock(averagePrice:2300, quantity: 3)
+
+print(stock.purchasePrice)
+stock.purchasePrice = 3000
+print(stock.averagePrice)
+
+
+    /// 연산 프로퍼티
+class Account{
+    var credit: Int = 0{
+        willSet{
+            print("잔액이 \(credit)원에서 \(newValue)원으로 변경될 예정입니다.")
+        }
+        
+        didSet{
+            print("잔액이 \(oldValue)원에서 \(credit)원으로 변경되었습니다.")
+        }
+    }
+}
+
+var account = Account()
+account.credit = 100티
+
+
+//타입 프로퍼티
+
+struct SomeStructure{
+    static var storedTypeProperty = "somevalue."
+    static var computedTypeProperty: Int {
+        return 1
+    }
+}
+
+// 인스턴스화 안시키고 사용 가능
+SomeStructure.computedTypeProperty
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1499}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ 프로토콜이란?
+ - 특정 역할을 하기 위한 메서드, 프로퍼티, 기타 요구사항 등의 청사진
+ */
+import Foundation
+protocol SomeProtocol {}
+protocol SomeProtocol2 {}
+struct SomeStructure : SomeProtocol, SomeProtocol2 {
+}
+// 클래스에 상속이 있을 경우 가장 앞에 상속 받은 클래스 먼저 정의
+/* class SomeClass : SomeSuperclass, FirstProtocol, AnotherProtocol {} */
+ 
+protocol FirstProtocol{
+    var name: Int { get set }
+    var age: Int { get set }
+}
+
+protocol AnotherProtocol{
+    static var someTypeProperty: Int { get set } // 프로토콜에서 type 을 요구하라면 static 을 써야함
+}
+
+protocol FullyNames {
+    var fullName: String { get set }
+}
+
+struct Person: FullyNames{
+    var fullName: String
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 614}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

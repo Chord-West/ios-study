@@ -10,9 +10,17 @@
 	<string>PlaygroundBookUserEdit</string>
 	<key>Diffs</key>
 	<dict>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/1A008DA3-D2A7-4AC7-A49B-34C14C2A6D30.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/1A008DA3-D2A7-4AC7-A49B-34C14C2A6D30.playgroundpage/main.swift</key>
+		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/1B9109FC-CC30-46FC-9912-1FB99E6BF1CE.playgroundpage/UserManifest.plist</key>
 		<string>Added</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/1B9109FC-CC30-46FC-9912-1FB99E6BF1CE.playgroundpage/main.swift</key>
+		<string>Modified</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/230127E6-C413-4772-A4B1-7446C0B86E8A.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/230127E6-C413-4772-A4B1-7446C0B86E8A.playgroundpage/main.swift</key>
 		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/44C72DA8-7B3F-4B9C-A188-553E5A8AAF2E.playgroundpage/UserManifest.plist</key>
 		<string>Added</string>
@@ -45,6 +53,10 @@
 		<key>Chapters/Chapter1.playgroundchapter/Pages/C3EC7784-BBA5-4598-99F2-0CF28EA7009B.playgroundpage/UserManifest.plist</key>
 		<string>Added</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/C3EC7784-BBA5-4598-99F2-0CF28EA7009B.playgroundpage/main.swift</key>
+		<string>Modified</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/E2DC7DC1-EC1E-4A84-8468-F0AA0E691F9C.playgroundpage/UserManifest.plist</key>
+		<string>Added</string>
+		<key>Chapters/Chapter1.playgroundchapter/Pages/E2DC7DC1-EC1E-4A84-8468-F0AA0E691F9C.playgroundpage/main.swift</key>
 		<string>Modified</string>
 		<key>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</key>
 		<string>Added</string>
